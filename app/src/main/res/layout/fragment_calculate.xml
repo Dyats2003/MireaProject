@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.CalculateFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firstVar"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Первое значение"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/secondVar"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Второе значение"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickPlus"
+            android:text="+"
+            android:textIsSelectable="false"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickMinus"
+            android:text="-"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <Button
+            android:id="@+id/buttonMult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickMult"
+            android:text="х"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickDiv"
+            android:text="/"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+    </LinearLayout>
+</FrameLayout>
