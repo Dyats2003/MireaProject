@@ -16,6 +16,11 @@
         android:label="@string/menu_browser"
         tools:layout="@layout/fragment_browser" />
     <fragment
+        android:id="@+id/nav_music"
+        android:name="ru.mirea.yatsenko.mireaproject.ui.fragments.MusicFragment"
+        android:label="@string/menu_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="ru.mirea.yatsenko.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
