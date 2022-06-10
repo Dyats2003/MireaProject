@@ -10,6 +10,7 @@
     <string name="menu_calculator">Calculator</string>
     <string name="menu_browser">Browser</string>
     <string name="menu_music">Music</string>
+    <string name="menu_apparat_functions">Sensors, Camera, AudioRecorder</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

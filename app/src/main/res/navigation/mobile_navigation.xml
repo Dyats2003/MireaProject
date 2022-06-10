@@ -21,6 +21,11 @@
         android:label="@string/menu_music"
         tools:layout="@layout/fragment_music" />
     <fragment
+        android:id="@+id/nav_apparat_functions"
+        android:name="ru.mirea.yatsenko.mireaproject.ui.fragments.ApparatFunctionsFragment"
+        android:label="@string/menu_apparat_functions"
+        tools:layout="@layout/fragment_apparat_functions" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="ru.mirea.yatsenko.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
