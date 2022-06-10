@@ -28,6 +28,8 @@
         <item
             android:id="@+id/nav_apparat_functions"
             android:title="@string/menu_apparat_functions" />
-
+        <item
+            android:id="@+id/nav_map"
+            android:title="@string/menu_map" />
     </group>
 </menu>
